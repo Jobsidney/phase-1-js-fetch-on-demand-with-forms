@@ -11,7 +11,9 @@ const init = () => {
             const summary=document.querySelector('#movieDetails p')
             title.innerText=foundData.title;
             summary.innerText=foundData.summary;
+            form.reset()
         })
+      
     })
 }
 
